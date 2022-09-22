@@ -1,27 +1,28 @@
 @import url('https://rsms.me/inter/inter.css');
 
 body {
-    background-color: 	#fff;
-    font-family: 'Inter' sans-serif; 
+      background-color: #fff;
+      font-family: 'Inter', sans-serif;
+
 }
 
-a {
+  a {
     text-decoration: none;
 }
 
-button {
-    margin-top: 0em;
-    margin-bottom: 0em;
-    border: none;
-    background: #fff;
-    font-weight: 500;
-    padding: 1em 1.5em;
-    color: white;
-    border-radius: 3px;
-  }
-  
+  button {
+  margin-top: 0 ;
+  margin-bottom: 0 ;
+  border: none;
+  background: #fff;
+  font-weight: 500;
+  padding: 1em 1.5em;
+  color: white;
+border-radius: 3px;
+}
+
   button:hover {
-    box-shadow: 0 8px 16px rgba(14, 184, 113, 0.938);
+box-shadow: 0 8px 16px rgba(14, 184, 113, 0.938);
   }
   
   button:active {
@@ -40,19 +41,17 @@ button {
     font-weight: 600;
     font-size: 20px;
     line-height: 28px;
-    color: #28352f;
 }
 
-.logo-container {   
+.logo-container {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     padding: 0 35px;
-
 }
 
-.header-toolbar {   
+  .header-toolbar {
     display: flex;
     position: absolute;
     top: 0%;
@@ -81,6 +80,10 @@ button {
     width: 2em;
 }
 
+li {
+    margin: 0 8px;
+  }
+
 .header-toolbar ul li {
     margin-left: 28px;
     margin-top: 40px;
@@ -92,7 +95,7 @@ button {
 .header-toolbar ul li a {
     font-size: 24px;
     font-weight: 600;
-    color: #3CB371;
+    color: #3cb371;
     cursor: pointer;
 }
 
@@ -117,22 +120,18 @@ button {
     font-weight: 700;
     font-size: 40px;
     line-height: 52px;
-    color: #172B4D;
+    color: #172b4d;
     margin-top: 0;
     margin-bottom: 0;
 } 
 
-span {
-    color: #3CB371;
+  span {
+    color: #3cb371;
 }
 
 ul {
     list-style: none;
     padding: 0;
-  }
-  
-  li {
-    margin: 0 8px;
   }
 
 .headline-section {
