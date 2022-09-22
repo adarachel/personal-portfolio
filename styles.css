@@ -115,8 +115,8 @@ li {
 h1 {
   font-style: normal;
   font-family: 'Inter', sans-serif;
-  font-weight: 700;
-  font-size: 40px;
+  font-weight: 700px;
+  font-size: 60px;
   line-height: 52px;
   color: #172b4d;
   margin-top: 0;
@@ -142,7 +142,7 @@ ul {
   margin-top: 1.5em;
 }
 
-.headline-section p {
+.headline-section p2 {
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-size: 20px;
@@ -150,6 +150,18 @@ ul {
   margin: 2em 24px;
   text-align: center;
   color: #172b4d;
+}
+
+.headline-section p1 {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  margin: 2em 24px;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .headline-section button {
