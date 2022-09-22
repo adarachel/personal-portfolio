@@ -5,9 +5,9 @@ body {
   font-family: 'Inter', sans-serif;
 }
 
-  a {
-text-decoration: none;
-  }
+a {
+  text-decoration: none;
+}
 
 button {
   margin-top: 0;
