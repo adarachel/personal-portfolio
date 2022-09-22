@@ -116,7 +116,7 @@ h1 {
   font-style: normal;
   font-family: 'Inter', sans-serif;
   font-weight: 700px;
-  font-size: 60px;
+  font-size: 40px;
   line-height: 52px;
   color: #172b4d;
   margin-top: 0;
@@ -142,7 +142,7 @@ ul {
   margin-top: 1.5em;
 }
 
-.headline-section p2 {
+.headline-section .two {
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-size: 20px;
@@ -152,7 +152,7 @@ ul {
   color: #172b4d;
 }
 
-.headline-section p1 {
+.headline-section .one { 
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
