@@ -135,7 +135,7 @@ ul {
 }
 
 .headline-section {
-  background: #fff url(./img/header-illsutration-mobile.svg) no-repeat; 
+  background: #fff url(./img/header-illsutration-mobile.svg) no-repeat;
   background-size: 100%;
   overflow: hidden;
 }
@@ -184,7 +184,7 @@ ul {
   display: grid;
   text-align: center;
   grid-template-columns: 1fr;
-  grid-template-rows: 50px 50px repeat(5,6fr);
+  grid-template-rows: 50px 50px repeat(5, 6fr);
   width: 90%;
   margin: 0 auto;
   margin-top: 5em;
@@ -201,14 +201,13 @@ ul {
   display: block;
   position: relative;
   top: 20px;
-  background: #fff
+  background: #fff;
 }
 
 .indicator-image {
   margin: 0;
   padding: 0;
 }
-
 
 .works-card {
   overflow: hidden;
@@ -285,13 +284,13 @@ ul {
   text-align: center;
   padding: 2em;
   font-size: 20px;
-  color:#42526e;
+  color: #42526e;
   font-family: 'Inter', sans-serif;
 }
 
 .about-me p {
   font-size: 20px;
-  color:#42526e;
+  color: #42526e;
   font-family: 'Inter', sans-serif;
 }
 
@@ -373,6 +372,3 @@ ul {
 .resume-btn:active {
   background: #008552;
 }
-
-
-
