@@ -7,9 +7,6 @@ Set up and Mobile Version Skeleton.
 - GitHub
 - Linters
 
-# To Run
-To run this project, you need to have a web browser such as Google Chrome, Safari, etc. And you need to clone the repository or download the ZIP files.
-
 # Author
 - Github: [@adarachel](https://github.com/adarachel)
 - Twitter: [@adarachel_dev](https://twitter.com/adarachel_dev)
