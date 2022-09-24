@@ -1,6 +1,7 @@
 @import url('https://rsms.me/inter/inter.css');
 
 body {
+  margin: 0;
   background-color: #fff;
   font-family: 'Inter', sans-serif;
 }
@@ -258,14 +259,27 @@ ul {
   margin: 0 0.5em;
   border-radius: 2px;
   cursor: pointer;
+  font-weight: 500;
+  color: #008552;
+}
+
+.works-card .works-card-title {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  color: #344563;
+  margin-bottom: 0em;
 }
 
 .project-btn {
   cursor: pointer;
   font-family: 'Inter', sans-serif;
-  font-weight: 600;
-  font-size: large;
-  background: #008552;
+  font-weight: 500;
+  font-size: medium;
+  background: #3cb371;
+  width: 140px;
+  margin-bottom: 2em;
+  margin-top: 1em;
 }
 
 .project-btn:hover {
@@ -283,8 +297,8 @@ ul {
   background: url(./img/illustration-\ about\ me-\ mobile.svg) no-repeat;
   text-align: center;
   padding: 2em;
-  font-size: 20px;
-  color: #42526e;
+  font-size: 24px;
+  color: #172b4d;
   font-family: 'Inter', sans-serif;
 }
 
@@ -319,6 +333,11 @@ ul {
   transition: box-shadow 0.1s ease-out;
 }
 
+.about-card h2 {
+  font-size: 25px;
+  margin-bottom: 0em;
+}
+
 .about-card:hover {
   box-shadow: 0 8px 16px rgba(14, 184, 113, 0.938);
 }
@@ -330,12 +349,13 @@ ul {
 .about-card-skills {
   display: flex;
   flex-wrap: wrap;
-  margin-top: 30px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .about-section-skills .about-card-skills li {
   background-color: white;
-  color: #008552;
+  color: #3cb371;
   font-size: 15px;
   font-weight: 600;
   letter-spacing: 1px;
@@ -355,14 +375,16 @@ ul {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 4em;
+  margin-top: 1em;
 }
 
 .resume-btn {
   cursor: pointer;
   font-family: 'Inter', sans-serif;
-  font-weight: 600;
-  font-size: large;
-  background: #008552;
+  font-weight: 500;
+  font-size: medium;
+  background: #3cb371;
 }
 
 .resume-btn:hover {
