@@ -335,7 +335,7 @@ ul {
 
 .about-card h2 {
   font-size: 25px;
-  margin-bottom: 0em;
+  margin-bottom: 0;
 }
 
 .about-card:hover {
@@ -349,8 +349,8 @@ ul {
 .about-card-skills {
   display: flex;
   flex-wrap: wrap;
-  margin-top: 0px;
-  margin-bottom: 0px;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .about-section-skills .about-card-skills li {
