@@ -353,7 +353,7 @@ ul {
   margin-bottom: 0;
 }
 
-.about-card-skills li {
+.about-section-skills .about-card-skills li {
   background-color: white;
   color: #36b37e;
   font-size: 12px;
