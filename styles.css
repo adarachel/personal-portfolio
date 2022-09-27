@@ -4,6 +4,8 @@ body {
   margin: 0;
   background-color: #fff;
   font-family: 'Inter', sans-serif;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 /* HEADER/TOOLBAR & HEADLINE */
@@ -136,7 +138,7 @@ ul {
 }
 
 .headline-section {
-  background: #fff url(./img/header-illsutration-mobile.svg) no-repeat;
+  background: #fff url(./img/header-illsutration-mobile.svg) center/contain no-repeat;
   background-size: 100%;
   overflow: hidden;
 }
@@ -186,7 +188,7 @@ ul {
   text-align: center;
   grid-template-columns: 1fr;
   grid-template-rows: 50px 50px repeat(5, 6fr);
-  width: 90%;
+  width: 100%;
   margin: 0 auto;
   margin-top: 5em;
 }
@@ -247,9 +249,9 @@ ul {
 .works-card-skills,
 .about-card-skills {
   list-style: none;
-  padding: 0;
+  padding: 32px;
   display: flex;
-  float: right;
+  align-items: center;
 }
 
 .works-card .works-card-skills li {
@@ -351,22 +353,26 @@ ul {
   flex-wrap: wrap;
   margin-top: 0;
   margin-bottom: 0;
+  align-items: center;
+  justify-content: center;
 }
 
 .about-section-skills .about-card-skills li {
   background-color: white;
   color: #36b37e;
-  font-size: 12px;
+  font-size: 13px;
   font-weight: 600;
   line-height: 16px;
   letter-spacing: 0.03em;
   padding: 10px;
-  height: 20px;
-  margin: 0;
-  margin-top: 2.5em;
+  padding-right: 1em;
+  height: 10px;
+  margin: 0.1em;
+  margin-top: 1em;
   border-radius: 8px;
   display: flex;
   flex-direction: row;
+  justify-content: center;
   align-items: center;
 }
 
@@ -398,18 +404,20 @@ ul {
   background: #008552;
 }
 
+/* FOOTER */
+/* CONTACT FORM */
+
 .footer-container {
   display: flex;
   flex-direction: column;
   text-align: center;
   justify-content: center;
   align-items: center;
-
   background: url(./img/illustration-contact-form.svg) no-repeat 100% 90%;
 }
 
-.contact-form h1 {
-  font-weight: 700;
+.contact-form h3 {
+  font-weight: 600;
   font-style: normal;
   font-size: 40px;
   text-align: center;
@@ -433,6 +441,55 @@ ul {
   justify-content: center;
 }
 
+.social-media ul li a {
+  text-decoration: none;
+  color: #42526e;
+  font-size: 20px;
+  margin-top: 1.5em;
+}
+
+.link-mail {
+  color: #42526e;
+}
+
 .email {
   color: #42526e;
+}
+
+.form-details {
+  list-style: none;
+  display: flex;
+  width: max-content;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}
+
+.form-details-name {
+  display: block;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-email {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+}
+
+input, textarea {
+  width: 327px;
+  padding: 1em;
+  margin: 1em 0;
+  background: #fff;
+  border: 1px solid #d0d9d4;
+  box-sizing: border-box;
+  border-radius: 4px;
+  color: #091e42;
 }
