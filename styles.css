@@ -405,7 +405,6 @@ ul {
 }
 
 /* FOOTER */
-/* CONTACT FORM */
 
 .footer-container {
   display: flex;
@@ -483,7 +482,8 @@ ul {
   color: #fff;
 }
 
-input, textarea {
+input,
+textarea {
   width: 327px;
   padding: 1em;
   margin: 1em 0;
