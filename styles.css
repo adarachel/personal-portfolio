@@ -255,8 +255,9 @@ ul {
 .about-card-skills {
   list-style: none;
   padding: 0;
-  display: flex;
-  justify-content: space-around;
+  margin: 1em auto;
+  /* display: flex;
+  justify-content: space-around; */
 }
 
 .works-card .works-card-skills li {
@@ -370,12 +371,14 @@ ul {
   letter-spacing: 0.03em;
   padding: 10px;
   height: 20px;
-  margin: 0;
+  margin: 0 0.5em;
   margin-top: 2.5em;
   border-radius: 8px;
-  display: flex;
-  flex-direction: row;
+  float: left;
   align-items: center;
+  /* display: flex;
+  flex-direction: row;
+  align-items: center; */
 }
 
 #title-about {
