@@ -416,3 +416,23 @@ ul {
   color: #172b4d;
   margin-top: 0;
 }
+
+.submit-btn {
+  cursor: pointer;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: medium;
+  background: #3cb371;
+  margin-top: 1em;
+}
+
+.footer-container .social-media {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  justify-content: center;
+}
+
+.email {
+  color: #42526e;
+}
