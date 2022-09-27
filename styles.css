@@ -397,3 +397,22 @@ ul {
 .resume-btn:active {
   background: #008552;
 }
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+
+  background: url(./img/illustration-contact-form.svg) no-repeat 100% 90%;
+}
+
+.contact-form h1 {
+  font-weight: 700;
+  font-style: normal;
+  font-size: 40px;
+  text-align: center;
+  color: #172b4d;
+  margin-top: 0;
+}
