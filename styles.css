@@ -121,6 +121,11 @@ li {
   text-align: center;
 }
 
+
+.toolbar-container-desktop {
+  display: none;
+}
+
 h1 {
   font-style: normal;
   font-family: 'Inter', sans-serif;
@@ -153,8 +158,9 @@ ul {
 
 .headline-section .two {
   font-family: 'Inter', sans-serif;
-  font-style: normal;
   font-size: 20px;
+  font-weight: 400;
+  max-width: 500px;
   line-height: 28px;
   margin: 2em 24px;
   text-align: center;
@@ -230,10 +236,10 @@ ul {
 /* WORKS SECTION */
 
 .work {
-  display: grid;
+  /* display: grid;
   text-align: center;
   grid-template-columns: 1fr;
-  grid-template-rows: 50px 50px repeat(5, 6fr);
+  grid-template-rows: 50px 50px repeat(5, 6fr); */
   width: 100%;
   margin: 0 auto;
   margin-top: 5em;
@@ -254,8 +260,9 @@ ul {
 }
 
 .indicator-image {
-  margin: 0;
-  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .works-card {
@@ -287,7 +294,8 @@ ul {
 }
 
 .works-card-image img {
-  width: 100%;
+  width: 327px;
+  height: 474px;
   min-height: 250px;
   object-fit: cover;
 }
@@ -302,13 +310,15 @@ ul {
 
 .works-card .works-card-skills li {
   background: #ebf0ee;
-  font-size: 12px;
+  font-weight: 700;
+  font-size: 10px;
   padding: 0.5em;
-  margin: 0 0.5em;
   border-radius: 2px;
+  line-height: 16px;
+  letter-spacing: 0;
   cursor: pointer;
-  font-weight: 500;
   color: #3a4a42;
+  margin-bottom: 1em;
 }
 
 .works-card .works-card-title {
@@ -316,7 +326,8 @@ ul {
   font-weight: 600;
   font-size: 24px;
   color: #344563;
-  margin-bottom: 0;
+  margin-bottom: -1em;
+  margin-top: 1em;
 }
 
 .project-btn {
@@ -327,7 +338,7 @@ ul {
   background: #3cb371;
   width: 140px;
   margin-bottom: 2em;
-  margin-top: 1em;
+  margin-top: -1em;
 }
 
 .project-btn:hover {
@@ -339,10 +350,19 @@ ul {
 }
 
 @media (min-width: 800px) {
-  .work {
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 200px repeat(3, 1fr);
+  .work-container {
+    display: grid;
+    justify-content: center;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    grid-template-columns: 30% 30% 30%;
+    /* grid-template-rows: 200px repeat(3, 1fr);  */
   }
+
+  .indicator-image {
+    display: none;
+  }
+
 
   .work h1:first-child {
     align-self: flex-end;
@@ -437,11 +457,12 @@ ul {
 
 .about-me p {
   font-size: 20px;
-  color: #42526e;
+  color: #172b4d
   font-family: 'Inter', sans-serif;
   line-height: 32px;
   font-weight: 400;
   text-align: center;
+  max-width: 500px;
 }
 
 .about-section-skills {
@@ -663,6 +684,12 @@ textarea:valid {
   background: #fff;
 }
 
+.form-post ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 footer::after {
   content: '';
   height: 4px;
@@ -683,7 +710,7 @@ footer::after {
     margin-bottom: 0;
   }
 
-  footer a {
+  footer .email {
     display: none;
   }
 
@@ -732,6 +759,10 @@ footer::after {
 
   .submit-btn {
     margin-right: 34.5em;
+  }
+
+  .form-post ul {
+    align-items: start;
   }
 }
 
