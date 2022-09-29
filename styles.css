@@ -631,6 +631,14 @@ ul {
   align-items: center;
 }
 
+.contact-form-title {
+  max-width: 500px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #172b4d;
+}
+
 .form-email {
   display: flex;
   flex-direction: column;
