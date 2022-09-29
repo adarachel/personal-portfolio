@@ -344,7 +344,7 @@ ul {
   background: #008552;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 1150px) {
   .work-container {
     display: grid;
     justify-content: center;
