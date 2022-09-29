@@ -34,6 +34,13 @@
     </header>
     <!--HEADLINE-->
     <section class="headline-section">
+        <nav>
+            <ul class="toolbar-container-desktop">
+                <li>Portfolio</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
         <div class="container-flex">
             <h1 class="headline-title">Hey there. I'm Rachel</h1>
             <p class="one"><span>I'm a software developer</span></p>
@@ -56,38 +63,25 @@ don't hesitate to contact me.</p>
             <div class="indicator-image">
             <img src="./img/Indicator.svg" alt="">
             </div>
-            <article>
-                <div class="works-card">
-                    <div class="works-card-image">
-                        <img src="./img/Img Plaholder.svg" alt="">
+
+            <div class="work-container">
+                <article>
+                    <div class="works-card">
+                        <div class="works-card-image">
+                            <img src="./img/Img Plaholder.svg" alt="">
+                        </div>
+                        <h2 class="works-card-title">Multi-Post Stories Gain+Glory</h2>
+                        <ul class="works-card-skills">
+                            <li>ruby on rails</li>
+                            <li>css</li>
+                            <li>Javascript</li>
+                            <li>html</li>
+                        </ul>
+                        <div>
+                        <button type="button" class="project-btn">See Project</button>
                     </div>
-                    <h2 class="works-card-title">Multi-Post Stories Gain+Glory</h2>
-                    <ul class="works-card-skills">
-                        <li>Ruby on rails</li>
-                        <li>css</li>
-                        <li>Javascript</li>
-                        <li>html</li>
-                    </ul>
-                    <div>
-                    <button type="button" class="project-btn">See Project</button>
-                </div>
-                </div>
-            </article> 
-            <article>
-                <div class="works-card">
-                    <div class="works-card-image">
-                        <img src="./img/Img Plaholder.svg" alt="">
                     </div>
-                    <h3 class="works-card-title">Multi-Post Stories Gain+Glory</h3>
-                    <ul class="works-card-skills">
-                        <li>ruby on rails</li>
-                        <li>css</li>
-                        <li>javascript</li>
-                        <li>html</li>
-                    </ul>
-                    <div><button type="button" class="project-btn">See Project</button></div>
-                </div>
-                </article>
+                </article> 
                 <article>
                     <div class="works-card">
                         <div class="works-card-image">
@@ -148,8 +142,25 @@ don't hesitate to contact me.</p>
                                     <div><button type="button" class="project-btn">See Project</button></div>
                                 </div>
                                 </article>
-                            </div>
-                        </section>
+                                <article>
+                                    <div class="works-card">
+                                        <div class="works-card-image">
+                                            <img src="./img/Img Plaholder.svg" alt="">
+                                        </div>
+                                        <h3 class="works-card-title">Multi-Post Stories Gain+Glory</h3>
+                                        <ul class="works-card-skills">
+                                            <li>ruby on rails</li>
+                                            <li>css</li>
+                                            <li>javascript</li>
+                                            <li>html</li>
+                                        </ul>
+                                        <div><button type="button" class="project-btn">See Project</button></div>
+                                    </div>
+                                    </article>
+            </div>
+            
+        </div>
+    </section>
                         <!--ABOUT SECTION-->
                         <section class="container-flex about-me">
                                 <div class="container">
@@ -216,7 +227,7 @@ don't hesitate to contact me.</p>
                  <footer class="footer-container">
                     <div class="contact-form">
                         <h2 class="contact-form-title">
-                            I'm always interested in hearing about new projects, 
+                            I'm always interested in <br> hearing about new projects,
                             so if you'd like to chat please get in touch.
                         </h2>
                         <form action="https://formspree.io/f/meqdgnbv" method="post" class="form-post">
@@ -225,15 +236,15 @@ don't hesitate to contact me.</p>
                                     <input type="text" name="full-name" maxlength="30" placeholder="Full name" required>
                                 </li>
                                 <li class="form-email">
-                                    <input type="email" class="contact-form-email" name="email" placeholder="Email address" required>
+                                    <input type="email" class="contact-form-email" name="email" maxlength="30" placeholder="Email address" required>
                                 </li>
                                 <li>
                                     <textarea name="textarea" cols="30" rows="10" maxlength="500" placeholder="Enter text here" required></textarea>
                                 </li>
                                 
-                                
+                                <li>
                                 <button class="submit-btn" type="submit">Get In Touch</button>
-                                
+                                </li>
                             </ul>
                         </form>
                     </div>
