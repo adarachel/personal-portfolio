@@ -8,10 +8,7 @@ body {
   box-sizing: border-box;
 }
 
-
-
 /* @media only screen and (max-width: 480 px) { */
-
 /* HEADER/TOOLBAR & HEADLINE */
 
 a {
@@ -120,7 +117,6 @@ li {
   align-items: center;
   text-align: center;
 }
-
 
 .toolbar-container-desktop {
   display: none;
@@ -356,13 +352,13 @@ ul {
     margin-bottom: 0;
     padding-bottom: 0;
     grid-template-columns: 30% 30% 30%;
+
     /* grid-template-rows: 200px repeat(3, 1fr);  */
   }
 
   .indicator-image {
     display: none;
   }
-
 
   .work h1:first-child {
     align-self: flex-end;
