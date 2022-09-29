@@ -426,15 +426,15 @@ ul {
 
 @media (min-width: 1150px) {
   .work {
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 200px repeat(2, 1fr);
-}
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 200px repeat(2, 1fr);
+  }
 
-.work h1:first-child {
-  padding: 1em;
-  grid-column: 1 / 4;
-  grid-row: 1 / 2;
-}
+  .work h1:first-child {
+    padding: 1em;
+    grid-column: 1 / 4;
+    grid-row: 1 / 2;
+  }
 }
 
 /* ABOUT SECTION */
@@ -555,16 +555,16 @@ ul {
 }
 
 @media (min-width: 1024px) {
-.about-me {
-  background: url(./img/illustration-about-me-2-desktop.svg) no-repeat 0% 20%, url(./img/illustration-about\ me-1-desktop.svg) no-repeat 100% 0%;
-}
-  
-.about-me p {
-  font-size: 20px;
-  line-height: 32px;
-  text-align: center;
-  justify-content: center;
-}
+  .about-me {
+    background: url(./img/illustration-about-me-2-desktop.svg) no-repeat 0% 20%, url(./img/illustration-about\ me-1-desktop.svg) no-repeat 100% 0%;
+  }
+
+  .about-me p {
+    font-size: 20px;
+    line-height: 32px;
+    text-align: center;
+    justify-content: center;
+  }
 }
 
 @media (min-width: 768px) {
