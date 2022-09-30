@@ -46,6 +46,20 @@ button:active {
   line-height: 28px;
 }
 
+.logo {
+  animation: moveToRight 5s linear infinite;
+  animation-delay: 1000ms;
+}
+
+@keyframes moveToRight {
+  0% {
+    transform: translateX(0px);
+  }
+  100% {
+    transform: translateX(300px);
+  }
+}
+
 .logo-container {
   display: flex;
   flex-direction: row;
@@ -160,6 +174,39 @@ ul {
   margin: 2em 24px;
   text-align: center;
   color: #172b4d;
+}
+
+.headline-section .one:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.headline-section .one {
+transition: 500ms linear;
+}
+
+@keyframes change-color {
+  25% {
+    color: #bd0000;
+  }
+  50% {
+    color: #ff59f9;
+  }
+  75% {
+    color: #1fbd00;
+  }
+  50% {
+    color: #b38b36;
+  }
+  75% {
+    color: #ba00bd;
+}
+}
+
+.headline-title {
+  animation-name: change-color;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
 }
 
 .headline-section .one {
@@ -648,7 +695,7 @@ ul {
 }
 
 .contact-form-title {
-  max-width: 500px;
+  max-width: 400px;
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
