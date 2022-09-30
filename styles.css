@@ -301,6 +301,30 @@ transition: 500ms linear;
   background: #fff;
 }
 
+@keyframes change-color {
+  25% {
+    color: #bd0000;
+  }
+  50% {
+    color: #ff59f9;
+  }
+  75% {
+    color: #1fbd00;
+  }
+  50% {
+    color: #b38b36;
+  }
+  75% {
+    color: #ba00bd;
+}
+}
+
+.work h1 {
+  animation-name: change-color;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
 .indicator-image {
   display: flex;
   flex-direction: column;
