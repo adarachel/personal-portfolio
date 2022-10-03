@@ -1,5 +1,6 @@
 # Personal Portfolio Website
-Set up and Mobile Version Skeleton.
+
+You can view the online site version of this repository by clicking on this link:  [LIVE DEMO](https://adarachel.github.io/personal-portfolio/)
 
 # Built With
 - HTML
