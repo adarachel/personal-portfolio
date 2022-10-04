@@ -142,8 +142,7 @@ ul {
 }
 
 .headline-section {
-  background: #fff url(./img/header-illsutration-mobile.svg) center/contain
-    no-repeat;
+  background: url(./img/header-illsutration-mobile.svg) center/contain no-repeat;
   background-size: 100%;
   overflow: hidden;
 }
@@ -442,9 +441,7 @@ ul {
 
 .about-me {
   margin-top: 2em;
-  background: url(./img/illustration\ 1-\ about\ me-mobile.svg) no-repeat 100%
-      0%,
-    url(./img/illustration-\ about\ me-\ mobile.svg) no-repeat 0 2px;
+  background: url(./img/illustration\ 1-\ about\ me-mobile.svg) no-repeat 100% 0%, url(./img/illustration-\ about\ me-\ mobile.svg) no-repeat 0 2px;
   text-align: center;
   padding: 2em;
   font-size: 24px;
@@ -559,8 +556,7 @@ ul {
 
 @media (min-width: 1024px) {
   .about-me {
-    background: url(./img/illustration-about-me-2-desktop.svg) no-repeat 0% 20%,
-      url(./img/illustration-about\ me-1-desktop.svg) no-repeat 100% 0%;
+    background: url(./img/illustration-about-me-2-desktop.svg) no-repeat 0% 20%, url(./img/illustration-about\ me-1-desktop.svg) no-repeat 100% 0%;
   }
 
   .about-me p {
@@ -720,10 +716,7 @@ footer::after {
   .footer-container {
     margin-bottom: 0;
     padding-bottom: 0;
-    background: url(./img/illustration-1-contact-form-desktop.svg) no-repeat 0%
-        90%,
-      url(./img/illustration-2-contact-form-desktop.svg) no-repeat 30% 90%,
-      url(./img/contact\ form-illustratoin-3-desktop.svg) no-repeat 100% 90%;
+    background: url(./img/illustration-1-contact-form-desktop.svg) no-repeat 0% 90%, url(./img/illustration-2-contact-form-desktop.svg) no-repeat 30% 90%, url(./img/contact\ form-illustratoin-3-desktop.svg) no-repeat 100% 90%;
   }
 
   .contact-form {
