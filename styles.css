@@ -142,12 +142,10 @@ ul {
 }
 
 .headline-section {
-  background:
-    url(./img/header-illsutration-mobile.svg) center/contain no-repeat;
-    
-    background-size: 100%;
-    overflow: hidden;
-  }
+  background: url(./img/header-illsutration-mobile.svg) center/contain no-repeat;
+  background-size: 100%;
+  overflow: hidden;
+}
 
 .headline-section h1:first-child {
   margin-top: 1.5em;
@@ -443,17 +441,13 @@ ul {
 
 .about-me {
   margin-top: 2em;
-  background:
-    url(./img/illustration\ 1-\ about\ me-mobile.svg) no-repeat 100% 0%,
-
-    url(./img/illustration-\ about\ me-\ mobile.svg) no-repeat 0 2px;
-    
-    text-align: center;
-    padding: 2em;
-    font-size: 24px;
-    color: #172b4d;
-    font-family: "Inter", sans-serif;
-  }
+  background: url(./img/illustration\ 1-\ about\ me-mobile.svg) no-repeat 100% 0%, url(./img/illustration-\ about\ me-\ mobile.svg) no-repeat 0 2px;
+  text-align: center;
+  padding: 2em;
+  font-size: 24px;
+  color: #172b4d;
+  font-family: "Inter", sans-serif;
+}
 
 .about-me p {
   font-size: 20px;
@@ -562,13 +556,10 @@ ul {
 
 @media (min-width: 1024px) {
   .about-me {
-    background:
-      url(./img/illustration-about-me-2-desktop.svg) no-repeat 0% 20%,
-
-      url(./img/illustration-about\ me-1-desktop.svg) no-repeat 100% 0%;
-    }
-    
-    .about-me p {
+    background: url(./img/illustration-about-me-2-desktop.svg) no-repeat 0% 20%, url(./img/illustration-about\ me-1-desktop.svg) no-repeat 100% 0%;
+  }
+  
+  .about-me p {
     font-size: 20px;
     line-height: 32px;
     text-align: center;
@@ -725,15 +716,10 @@ footer::after {
   .footer-container {
     margin-bottom: 0;
     padding-bottom: 0;
-    background:
-      url(./img/illustration-1-contact-form-desktop.svg) no-repeat 0% 90%,
-
-      url(./img/illustration-2-contact-form-desktop.svg) no-repeat 30% 90%,
-
-      url(./img/contact\ form-illustratoin-3-desktop.svg) no-repeat 100% 90%;
-    }
-    
-    .contact-form {
+    background: url(./img/illustration-1-contact-form-desktop.svg) no-repeat 0% 90%, url(./img/illustration-2-contact-form-desktop.svg) no-repeat 30% 90%, url(./img/contact\ form-illustratoin-3-desktop.svg) no-repeat 100% 90%;
+  }
+  
+  .contact-form {
     display: flex;
     flex-direction: row;
     text-align: left;
