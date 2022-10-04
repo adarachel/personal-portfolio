@@ -558,7 +558,7 @@ ul {
   .about-me {
     background: url(./img/illustration-about-me-2-desktop.svg) no-repeat 0% 20%, url(./img/illustration-about\ me-1-desktop.svg) no-repeat 100% 0%;
   }
-  
+
   .about-me p {
     font-size: 20px;
     line-height: 32px;
@@ -718,7 +718,7 @@ footer::after {
     padding-bottom: 0;
     background: url(./img/illustration-1-contact-form-desktop.svg) no-repeat 0% 90%, url(./img/illustration-2-contact-form-desktop.svg) no-repeat 30% 90%, url(./img/contact\ form-illustratoin-3-desktop.svg) no-repeat 100% 90%;
   }
-  
+
   .contact-form {
     display: flex;
     flex-direction: row;
