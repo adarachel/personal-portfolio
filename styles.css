@@ -1,9 +1,9 @@
-@import url('https://rsms.me/inter/inter.css');
+@import url("https://rsms.me/inter/inter.css");
 
 body {
   margin: 0;
   background-color: #fff;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   padding: 0;
   box-sizing: border-box;
 }
@@ -39,7 +39,7 @@ button:active {
   text-align: center;
   color: #28352f;
   text-decoration: none;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 20px;
@@ -123,7 +123,7 @@ li {
 
 h1 {
   font-style: normal;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 700px;
   font-size: 32px;
   line-height: 52px;
@@ -153,7 +153,7 @@ ul {
 }
 
 .headline-section .two {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 20px;
   font-weight: 400;
   max-width: 500px;
@@ -164,7 +164,7 @@ ul {
 }
 
 .headline-section .one {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -318,7 +318,7 @@ ul {
 }
 
 .works-card .works-card-title {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 600;
   font-size: 24px;
   color: #344563;
@@ -328,10 +328,10 @@ ul {
 
 .project-btn {
   cursor: pointer;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 500;
   font-size: medium;
-  background: #3cb371;
+  background: rgb(2, 54, 2);
   width: 140px;
   margin-bottom: 2em;
   margin-top: -1em;
@@ -449,13 +449,13 @@ ul {
   padding: 2em;
   font-size: 24px;
   color: #172b4d;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 .about-me p {
   font-size: 20px;
   color: #172b4d;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   line-height: 32px;
   font-weight: 400;
   text-align: center;
@@ -542,10 +542,10 @@ ul {
 
 .resume-btn {
   cursor: pointer;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 500;
   font-size: medium;
-  background: #3cb371;
+  background: rgb(2, 54, 2);
   margin-bottom: 5em;
 }
 
@@ -602,10 +602,10 @@ ul {
 
 .submit-btn {
   cursor: pointer;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 500;
   font-size: medium;
-  background: #3cb371;
+  background: rgb(2, 54, 2);
   margin-top: 1em;
 }
 
@@ -691,7 +691,7 @@ textarea:valid {
 }
 
 footer::after {
-  content: '';
+  content: "";
   height: 4px;
   width: 150px;
   margin: 0 auto;
