@@ -7,31 +7,31 @@ const contactlink = document.querySelector('.contact-link');
 let menuOpen = false;
 
 menubtn.addEventListener('click', () => {
-  !menuOpen && menubtn.classList.add('hidden')
-  headertoolbar.classList.remove('hidden'),
+  !menuOpen && menubtn.classList.add('hidden');
+  headertoolbar.classList.remove('hidden');
   (menuOpen = true);
 });
 
 closebtn.addEventListener('click', () => {
-  menuOpen && menubtn.classList.remove('hidden')
-  headertoolbar.classList.add('hidden'),
+  menuOpen && menubtn.classList.remove('hidden');
+  headertoolbar.classList.add('hidden');
   (menuOpen = false);
 });
 
 portfoliolink.addEventListener('click', () => {
   headertoolbar.classList.add('hidden');
   menubtn.classList.remove('hidden');
-  console.log('click link');
+  console.log('click link'); // eslint-disable-next-line no-console
 });
 
 aboutlink.addEventListener('click', () => {
   headertoolbar.classList.add('hidden');
   menubtn.classList.remove('hidden');
-  console.log('click link');
+  console.log('click link'); // eslint-disable-next-line no-console
 });
 
 contactlink.addEventListener('click', () => {
   headertoolbar.classList.add('hidden');
   menubtn.classList.remove('hidden');
-  console.log('click link');
+  console.log('click link'); // eslint-disable-next-line no-console
 });
