@@ -7,13 +7,13 @@ const contactlink = document.querySelector('.contact-link');
 let menuOpen = false;
 
 menubtn.addEventListener('click', () => {
-  menuOpen && menubtn.classList.add('hidden'),
+  !menuOpen && menubtn.classList.add('hidden')
   headertoolbar.classList.remove('hidden'),
   (menuOpen = true);
 });
 
 closebtn.addEventListener('click', () => {
-  menuOpen && menubtn.classList.remove('hidden'),
+  menuOpen && menubtn.classList.remove('hidden')
   headertoolbar.classList.add('hidden'),
   (menuOpen = false);
 });
@@ -23,13 +23,13 @@ portfoliolink.addEventListener('click', () => {
   menubtn.classList.remove('hidden');
   console.log('click link');
 });
-  
+
 aboutlink.addEventListener('click', () => {
   headertoolbar.classList.add('hidden');
   menubtn.classList.remove('hidden');
   console.log('click link');
 });
-  
+
 contactlink.addEventListener('click', () => {
   headertoolbar.classList.add('hidden');
   menubtn.classList.remove('hidden');
