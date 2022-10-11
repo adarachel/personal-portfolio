@@ -186,6 +186,12 @@ ul {
   width: 170px;
 }
 
+.portfolio-link:hover, 
+.about-link:hover,
+.contact-link:hover {
+  color: #3cb371;
+} 
+
 @media (min-width: 992px) {
   .toolbar-container {
     display: none;
