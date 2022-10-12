@@ -167,7 +167,7 @@ const worksCardDetailsMobile = (index) => `
   </article>
   `;
 
-  // eslint-disable-next-line no-plusplus
+// eslint-disable-next-line no-plusplus
 for (let i = 0; i < arrayProjectBtn.length; i++) {
   arrayProjectBtn[i].addEventListener('click', () => {
     document.body.innerHTML = worksCardDetailsMobile(i);
