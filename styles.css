@@ -492,62 +492,62 @@ ul {
 
 @media (min-width: 1050px) {
   .works-card-skills-mobile li {
-  background: #ebf0ee;
-  font-family: Inter, sans-serif;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 0.75em;
-  line-height: 1em;
-  letter-spacing: 0.03em;
-  color: #344563;
-  border-radius: 0.5em;
-  margin-top: 0;
-}
+    background: #ebf0ee;
+    font-family: Inter, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 0.75em;
+    line-height: 1em;
+    letter-spacing: 0.03em;
+    color: #344563;
+    border-radius: 0.5em;
+    margin-top: 0;
+  }
 
-.works-card-details-mobile {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 60px;
-  grid-template-rows: 60px repeat(5, auto);
-}
+  .works-card-details-mobile {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 60px;
+    grid-template-rows: 60px repeat(5, auto);
+  }
 
-.close-btn-details {
-  background: #ebecf0;
-  position: relative;
-  right: 0;
-  left: 0;
-  grid-column: -2 / -1;
-  grid-row: 1/2;
-}
+  .close-btn-details {
+    background: #ebecf0;
+    position: relative;
+    right: 0;
+    left: 0;
+    grid-column: -2 / -1;
+    grid-row: 1/2;
+  }
 
-.works-card-image-details-mobile {
-  grid-column: 1 / -1;
-  grid-row: 2 / 3;
-}
+  .works-card-image-details-mobile {
+    grid-column: 1 / -1;
+    grid-row: 2 / 3;
+  }
 
-.works-card-title-mobile {
-  grid-column: 1 / 3;
-  grid-row: 3 / 4;
-  font-size: 32px;
-  font-weight: 700;
-  line-height: 44px;
-  width: 589px;
-  height: 82px;
-}
+  .works-card-title-mobile {
+    grid-column: 1 / 3;
+    grid-row: 3 / 4;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 44px;
+    width: 589px;
+    height: 82px;
+  }
 
-.works-card-button-mobile {
-  grid-column: 3 / 5;
-  grid-row: 3 / 4;
-}
+  .works-card-button-mobile {
+    grid-column: 3 / 5;
+    grid-row: 3 / 4;
+  }
 
-.works-card-skills-mobile {
-  grid-column: 1 /-1;
-  grid-row: 4 / 5;
-}
+  .works-card-skills-mobile {
+    grid-column: 1 /-1;
+    grid-row: 4 / 5;
+  }
 
-.works-card-paragraph-mobile {
-  grid-column: 1 / -1;
-  margin-bottom: 4em;
-}
+  .works-card-paragraph-mobile {
+    grid-column: 1 / -1;
+    margin-bottom: 4em;
+  }
 }
 
 @media (min-width: 1150px) {
