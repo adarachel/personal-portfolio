@@ -451,8 +451,6 @@ ul {
     margin-bottom: 0;
     padding-bottom: 0;
     grid-template-columns: 30% 30% 30%;
-
-    /* grid-template-rows: 200px repeat(3, 1fr);  */
   }
 
   .indicator-image {
@@ -488,7 +486,7 @@ ul {
 .works-card-details-mobile {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 60px;
-  grid-template-rows: 60px repeat(5, auto); /* 60px 50% 1fr 60px 1fr; */
+  grid-template-rows: 60px repeat(5, auto);
 }
 
 .close-btn-details {
