@@ -47,7 +47,6 @@ const dataCards = [
       tech3: 'JavaScript',
     },
     linkVersion: 'https://www.google.com',
-    title: 'Keeping track of hundreds of components',
     linkSource: 'https://adarachel.github.io/personal-portfolio/',
   },
   {
@@ -168,6 +167,7 @@ const worksCardDetailsMobile = (index) => `
   </article>
   `;
 
+  // eslint-disable-next-line no-plusplus
 for (let i = 0; i < arrayProjectBtn.length; i++) {
   arrayProjectBtn[i].addEventListener('click', () => {
     document.body.innerHTML = worksCardDetailsMobile(i);
