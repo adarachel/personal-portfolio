@@ -4,34 +4,176 @@ const closebtn = document.querySelector('.close-btn');
 const portfoliolink = document.querySelector('.portfolio-link');
 const aboutlink = document.querySelector('.about-link');
 const contactlink = document.querySelector('.contact-link');
-let menuOpen = false;
+const arrayProjectBtn = document.querySelectorAll('.project-btn');
 
 menubtn.addEventListener('click', () => {
-  !menuOpen && menubtn.classList.add('hidden');
+  menubtn.classList.add('hidden');
   headertoolbar.classList.remove('hidden');
-  (menuOpen = true);
 });
 
 closebtn.addEventListener('click', () => {
-  menuOpen && menubtn.classList.remove('hidden');
+  menubtn.classList.remove('hidden');
   headertoolbar.classList.add('hidden');
-  (menuOpen = false);
 });
 
 portfoliolink.addEventListener('click', () => {
   headertoolbar.classList.add('hidden');
   menubtn.classList.remove('hidden');
-  console.log('click link'); /* eslint-disable-next-line no-console */
 });
 
 aboutlink.addEventListener('click', () => {
   headertoolbar.classList.add('hidden');
   menubtn.classList.remove('hidden');
-  console.log('click link'); /* eslint-disable-next-line no-console */
 });
 
 contactlink.addEventListener('click', () => {
   headertoolbar.classList.add('hidden');
   menubtn.classList.remove('hidden');
-  console.log('click link'); /* eslint-disable-next-line no-console */
 });
+
+const dataCards = [
+  {
+    id: 0,
+    url: './img/newnew.svg',
+    title: 'Keeping track of hundreds of components',
+    description: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+  industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+  and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and
+  typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+  when an unknown printer took a galley of type and scrambled it 1960s with the relea`,
+    tecnologies: {
+      tech1: 'Rubi on rails',
+      tech2: 'css',
+      tech3: 'JavaScript',
+    },
+    linkVersion: 'https://www.google.com',
+    title: 'Keeping track of hundreds of components',
+    linkSource: 'https://adarachel.github.io/personal-portfolio/',
+  },
+  {
+    id: 1,
+    url: './img/newnew.svg',
+    title: 'Keeping track of hundreds of components',
+    description: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+  industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+  and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and
+  typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+  when an unknown printer took a galley of type and scrambled it 1960s with the relea`,
+    tecnologies: {
+      tech1: 'Rubi on rails',
+      tech2: 'css',
+      tech3: 'JavaScript',
+    },
+    linkVersion: 'https://www.google.com',
+    linkSource: 'https://adarachel.github.io/personal-portfolio/',
+  },
+  {
+    id: 2,
+    url: './img/newnew.svg',
+    title: 'Keeping track of hundreds of components',
+    description: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+  industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+  and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and
+  typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+  when an unknown printer took a galley of type and scrambled it 1960s with the relea`,
+    tecnologies: {
+      tech1: 'Rubi on rails',
+      tech2: 'css',
+      tech3: 'JavaScript',
+    },
+    linkVersion: 'https://www.google.com',
+    linkSource: 'https://adarachel.github.io/personal-portfolio/',
+  },
+  {
+    id: 3,
+    url: './img/newnew.svg',
+    title: 'Keeping track of hundreds of components',
+    description: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+  industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+  and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and
+  typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+  when an unknown printer took a galley of type and scrambled it 1960s with the relea`,
+    tecnologies: {
+      tech1: 'Rubi on rails',
+      tech2: 'css',
+      tech3: 'JavaScript',
+    },
+    linkVersion: 'https://www.google.com',
+    linkSource: 'https://adarachel.github.io/personal-portfolio/',
+  },
+  {
+    id: 4,
+    url: './img/newnew.svg',
+    title: 'Keeping track of hundreds of components',
+    description: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+  industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+  and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and
+  typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+  when an unknown printer took a galley of type and scrambled it 1960s with the relea`,
+    tecnologies: {
+      tech1: 'Rubi on rails',
+      tech2: 'css',
+      tech3: 'JavaScript',
+    },
+    linkVersion: 'https://www.google.com',
+    linkSource: 'https://adarachel.github.io/personal-portfolio/',
+  },
+  {
+    id: 5,
+    url: './img/newnew.svg',
+    title: 'Keeping track of hundreds of components',
+    description: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+  industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+  and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and
+  typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+  when an unknown printer took a galley of type and scrambled it 1960s with the relea`,
+    tecnologies: {
+      tech1: 'Rubi on rails',
+      tech2: 'css',
+      tech3: 'JavaScript',
+    },
+    linkVersion: 'https://www.google.com/',
+    linkSource: 'https://adarachel.github.io/personal-portfolio/',
+  },
+];
+
+const worksCardDetailsMobile = (index) => `
+  <article class="works-card-details-mobile">
+          <button type="button" class="close-btn-details">
+              <img src="./img/Icon.svg" alt="cancel">
+          </button>
+          <div class="works-card-image-details-mobile img">
+              <img src=${dataCards[index].url} alt="">
+          </div>
+          <h2 class="works-card-title-mobile">
+              ${dataCards[index].title}
+          </h2>
+          <ul class="works-card-skills-mobile">
+              <li class="works-card-skills-mobile li">${dataCards[index].tecnologies.tech1}</li>
+              <li class="works-card-skills-mobile li">${dataCards[index].tecnologies.tech2}</li>
+              <li class="works-card-skills-mobile li">${dataCards[index].tecnologies.tech3}</li>
+          </ul>
+          <p class="works-card-paragraph-mobile">
+            ${dataCards[index].description}
+          </p>
+          <div class="works-card-button-mobile">
+                  <a href=${dataCards[index].linkVersion} class="works-card-btn-details-mobile">
+                  <img src="./img/Enable.png" alt="see live">
+                  </a>
+                  <a href=${dataCards[index].linkSource} class="works-card-btn-details-mobile">
+                  <img src="./img/Enable.svg" alt="see github">
+                  </a>
+          </div>
+          <script src="index.js"></script>
+  </article>
+  `;
+
+for (let i = 0; i < arrayProjectBtn.length; i++) {
+  arrayProjectBtn[i].addEventListener('click', () => {
+    document.body.innerHTML = worksCardDetailsMobile(i);
+    const btnCloseDetailsMobile = document.querySelector('.close-btn-details');
+    btnCloseDetailsMobile.addEventListener('click', async () => {
+      window.location.reload();
+    });
+  });
+}
