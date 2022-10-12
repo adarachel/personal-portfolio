@@ -527,6 +527,7 @@ ul {
   grid-column: 1 / -1;
   margin-bottom: 4em;
 }
+}
 
 @media (min-width: 1150px) {
   .work {
