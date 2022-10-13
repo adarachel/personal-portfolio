@@ -189,13 +189,13 @@ const projectsCards = [
     id: '3',
     name: 'Multi-Post Stories Gain+Glory',
     cardSkills: ['ruby on rails', 'css', 'Javascript', 'html'],
-    imageUrl: './img/doughnuts.jpeg',   
+    imageUrl: './img/doughnuts.jpeg',
   },
   {
     id: '4',
     name: 'Multi-Post Stories Gain+Glory',
     cardSkills: ['ruby on rails', 'css', 'Javascript', 'html'],
-    imageUrl: './img/doughnuts.jpeg', 
+    imageUrl: './img/doughnuts.jpeg',
   },
   {
     id: '5',
@@ -227,8 +227,8 @@ projectsCards.forEach((projects, index) => {
   </div>
 </div>
 </article>
-`
-projectsContainer.innerHTML += card;
+`;
+  projectsContainer.innerHTML += card;
 });
 
 const arrayProjectBtn = document.querySelectorAll('.project-btn');
