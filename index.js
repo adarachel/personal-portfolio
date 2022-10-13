@@ -171,44 +171,42 @@ const worksCardDetailsMobile = (index) => `
             "id":"0",
             "name":"Multi-Post Stories Gain+Glory",
             "cardSkills":["ruby on rails","css","Javascript","html"],
-            "imageUrl":"./img/Img Plaholder.svg",
+            "imageUrl":"./img/doughnuts.jpeg",
     },
         {
             "id":"1",
             "name":"Multi-Post Stories Gain+Glory",
             "cardSkills":["ruby on rails","css","Javascript","html"],
-            "imageUrl":"./img/Img Plaholder.svg",
+            "imageUrl":"./img/doughnuts.jpeg",
     },
         {
             "id":"2",
             "name":"Multi-Post Stories Gain+Glory",
             "cardSkills":["ruby on rails","css","Javascript","html"],
-            "imageUrl":"./img/Img Plaholder.svg",
+            "imageUrl":"./img/doughnuts.jpeg",
     },
         {
             "id":"3",
             "name":"Multi-Post Stories Gain+Glory",
             "cardSkills":["ruby on rails","css","Javascript","html"],
-            "imageUrl":"./img/Img Plaholder.svg",        
+            "imageUrl":"./img/doughnuts.jpeg",        
           },
         {
             "id":"4",
             "name":"Multi-Post Stories Gain+Glory",
             "cardSkills":["ruby on rails","css","Javascript","html"],
-            "imageUrl":"./img/Img Plaholder.svg",       
+            "imageUrl":"./img/doughnuts.jpeg",       
           },
         {
             "id":"5",
             "name":"Multi-Post Stories Gain+Glory",
             "cardSkills":["ruby on rails","css","Javascript","html"],
-            "imageUrl":"./img/coffee3.png",
+            "imageUrl":"./img/doughnuts.jpeg",
     },
     ];
 
     const projectsContainer = document.getElementById('work-container-id');
 
-
-  // projectsCards.forEach((projects, index) => {console.log("card")   });
 
   projectsCards.forEach((projects,index)=>{
     let card = ` 
@@ -217,7 +215,6 @@ const worksCardDetailsMobile = (index) => `
   <div class="works-card-image">
     <img src=${projects.imageUrl}>
   </div>
-  
     <h2 class="works-card-title">
         ${projects.name}
     </h2>
@@ -231,20 +228,19 @@ const worksCardDetailsMobile = (index) => `
   </div>
 </div>
 </article>
-  `
-  projectsContainer.innerHTML += card
-  })
+` 
+projectsContainer.innerHTML += card 
+})
 
-  const arrayProjectBtn = document.querySelectorAll('.project-btn');
+const arrayProjectBtn = document.querySelectorAll('.project-btn');
 
 // eslint-disable-next-line no-plusplus
-const modalContainer  = document.getElementById('modal-container')
 for (let i = 0; i < arrayProjectBtn.length; i++) {
   arrayProjectBtn[i].addEventListener('click', () => {
-    modalContainer.innerHTML = worksCardDetailsMobile(i);
+    document.body.innerHTML = worksCardDetailsMobile(i);
     const btnCloseDetailsMobile = document.querySelector('.close-btn-details');
-    btnCloseDetailsMobile.addEventListener('click',() => {
-      modalContainer.innerHTML= "";
+    btnCloseDetailsMobile.addEventListener('click', async () => {
+      window.location.reload();
     });
   });
 }

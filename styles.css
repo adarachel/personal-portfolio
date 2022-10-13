@@ -351,12 +351,7 @@ ul {
 }
 
 .works-card-details-mobile {
-  /* display: grid; */
-  position:fixed;
-  top:50%;
-  left:50%;
-  height:90vh;
-  transform: translate(-50%,-50%);
+  display: grid;
   padding: 16px;
   font-size: 16px;
   background: #fff;
