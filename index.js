@@ -166,50 +166,49 @@ const worksCardDetailsMobile = (index) => `
   </article>
   `;
 
-    const projectsCards = [
-        {
-            "id":"0",
-            "name":"Multi-Post Stories Gain+Glory",
-            "cardSkills":["ruby on rails","css","Javascript","html"],
-            "imageUrl":"./img/doughnuts.jpeg",
-    },
-        {
-            "id":"1",
-            "name":"Multi-Post Stories Gain+Glory",
-            "cardSkills":["ruby on rails","css","Javascript","html"],
-            "imageUrl":"./img/doughnuts.jpeg",
-    },
-        {
-            "id":"2",
-            "name":"Multi-Post Stories Gain+Glory",
-            "cardSkills":["ruby on rails","css","Javascript","html"],
-            "imageUrl":"./img/doughnuts.jpeg",
-    },
-        {
-            "id":"3",
-            "name":"Multi-Post Stories Gain+Glory",
-            "cardSkills":["ruby on rails","css","Javascript","html"],
-            "imageUrl":"./img/doughnuts.jpeg",        
-          },
-        {
-            "id":"4",
-            "name":"Multi-Post Stories Gain+Glory",
-            "cardSkills":["ruby on rails","css","Javascript","html"],
-            "imageUrl":"./img/doughnuts.jpeg",       
-          },
-        {
-            "id":"5",
-            "name":"Multi-Post Stories Gain+Glory",
-            "cardSkills":["ruby on rails","css","Javascript","html"],
-            "imageUrl":"./img/doughnuts.jpeg",
-    },
-    ];
+const projectsCards = [
+  {
+    id: '0',
+    name: 'Multi-Post Stories Gain+Glory',
+    cardSkills: ['ruby on rails','css','Javascript','html'],
+    imageUrl: './img/doughnuts.jpeg',
+  },
+  {
+    id: '1',
+    name: 'Multi-Post Stories Gain+Glory',
+    cardSkills: ['ruby on rails','css','Javascript','html'],
+    imageUrl: './img/doughnuts.jpeg',
+  },
+  {
+    id: '2',
+    name: 'Multi-Post Stories Gain+Glory',
+    cardSkills: ['ruby on rails','css','Javascript','html'],
+    imageUrl: './img/doughnuts.jpeg',
+  },
+  {
+    id: '3',
+    name: 'Multi-Post Stories Gain+Glory',
+    cardSkills: ['ruby on rails','css','Javascript','html'],
+    imageUrl: './img/doughnuts.jpeg',        
+  },
+  {
+   id: '4',
+   name: 'Multi-Post Stories Gain+Glory',
+   cardSkills: ['ruby on rails','css','Javascript','html'],
+   imageUrl: './img/doughnuts.jpeg',       
+  },
+  {
+   id: '5',
+   name: 'Multi-Post Stories Gain+Glory',
+   cardSkills: ['ruby on rails','css','Javascript','html'],
+   imageUrl: './img/doughnuts.jpeg',
+  },
+];
 
-    const projectsContainer = document.getElementById('work-container-id');
+const projectsContainer = document.getElementById('work-container-id');
 
-
-  projectsCards.forEach((projects,index)=>{
-    let card = ` 
+  projectsCards.forEach((projects, index) => {
+  let card = ` 
   <article>
   <div class="works-card">
   <div class="works-card-image">
@@ -229,8 +228,8 @@ const worksCardDetailsMobile = (index) => `
 </div>
 </article>
 ` 
-projectsContainer.innerHTML += card 
-})
+  projectsContainer.innerHTML += card 
+});
 
 const arrayProjectBtn = document.querySelectorAll('.project-btn');
 
