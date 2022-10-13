@@ -4,7 +4,6 @@ const closebtn = document.querySelector('.close-btn');
 const portfoliolink = document.querySelector('.portfolio-link');
 const aboutlink = document.querySelector('.about-link');
 const contactlink = document.querySelector('.contact-link');
-const arrayProjectBtn = document.querySelectorAll('.project-btn');
 
 menubtn.addEventListener('click', () => {
   menubtn.classList.add('hidden');
@@ -202,20 +201,23 @@ const worksCardDetailsMobile = (index) => `
             "id":"5",
             "name":"Multi-Post Stories Gain+Glory",
             "cardSkills":["ruby on rails","css","Javascript","html"],
-            "imageUrl":"./img/Img Plaholder.svg",
+            "imageUrl":"./img/coffee3.png",
     },
     ];
 
     const projectsContainer = document.getElementById('work-container-id');
 
 
-  projectsCards.forEach((projects, index) => {console.log("card") let card = ` 
+  // projectsCards.forEach((projects, index) => {console.log("card")   });
+
+  projectsCards.forEach((projects,index)=>{
+    let card = ` 
   <article>
   <div class="works-card">
   <div class="works-card-image">
     <img src=${projects.imageUrl}>
   </div>
-  <div class="works-card">
+  
     <h2 class="works-card-title">
         ${projects.name}
     </h2>
@@ -229,15 +231,20 @@ const worksCardDetailsMobile = (index) => `
   </div>
 </div>
 </article>
-  ` projectsContainer.innerHTML += card });
+  `
+  projectsContainer.innerHTML += card
+  })
+
+  const arrayProjectBtn = document.querySelectorAll('.project-btn');
 
 // eslint-disable-next-line no-plusplus
+const modalContainer  = document.getElementById('modal-container')
 for (let i = 0; i < arrayProjectBtn.length; i++) {
   arrayProjectBtn[i].addEventListener('click', () => {
-    document.body.innerHTML = worksCardDetailsMobile(i);
+    modalContainer.innerHTML = worksCardDetailsMobile(i);
     const btnCloseDetailsMobile = document.querySelector('.close-btn-details');
-    btnCloseDetailsMobile.addEventListener('click', async () => {
-      window.location.reload();
+    btnCloseDetailsMobile.addEventListener('click',() => {
+      modalContainer.innerHTML= "";
     });
   });
 }
