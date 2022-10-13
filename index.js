@@ -167,6 +167,70 @@ const worksCardDetailsMobile = (index) => `
   </article>
   `;
 
+    const projectsCards = [
+        {
+            "id":"0",
+            "name":"Multi-Post Stories Gain+Glory",
+            "cardSkills":["ruby on rails","css","Javascript","html"],
+            "imageUrl":"./img/Img Plaholder.svg",
+    },
+        {
+            "id":"1",
+            "name":"Multi-Post Stories Gain+Glory",
+            "cardSkills":["ruby on rails","css","Javascript","html"],
+            "imageUrl":"./img/Img Plaholder.svg",
+    },
+        {
+            "id":"2",
+            "name":"Multi-Post Stories Gain+Glory",
+            "cardSkills":["ruby on rails","css","Javascript","html"],
+            "imageUrl":"./img/Img Plaholder.svg",
+    },
+        {
+            "id":"3",
+            "name":"Multi-Post Stories Gain+Glory",
+            "cardSkills":["ruby on rails","css","Javascript","html"],
+            "imageUrl":"./img/Img Plaholder.svg",        
+          },
+        {
+            "id":"4",
+            "name":"Multi-Post Stories Gain+Glory",
+            "cardSkills":["ruby on rails","css","Javascript","html"],
+            "imageUrl":"./img/Img Plaholder.svg",       
+          },
+        {
+            "id":"5",
+            "name":"Multi-Post Stories Gain+Glory",
+            "cardSkills":["ruby on rails","css","Javascript","html"],
+            "imageUrl":"./img/Img Plaholder.svg",
+    },
+    ];
+
+    const projectsContainer = document.getElementById('work-container-id');
+
+
+  projectsCards.forEach((projects, index) => {console.log("card") let card = ` 
+  <article>
+  <div class="works-card">
+  <div class="works-card-image">
+    <img src=${projects.imageUrl}>
+  </div>
+  <div class="works-card">
+    <h2 class="works-card-title">
+        ${projects.name}
+    </h2>
+    <ul class="works-card-skills">
+    <li>${projects.cardSkills[0]}</li>
+    <li>${projects.cardSkills[1]}</li>
+    <li>${projects.cardSkills[2]}</li>
+    <li>${projects.cardSkills[3]}</li>
+</ul>
+    <div><button data-id="${index}" class="project-btn">See Project</button></div>
+  </div>
+</div>
+</article>
+  ` projectsContainer.innerHTML += card });
+
 // eslint-disable-next-line no-plusplus
 for (let i = 0; i < arrayProjectBtn.length; i++) {
   arrayProjectBtn[i].addEventListener('click', () => {
