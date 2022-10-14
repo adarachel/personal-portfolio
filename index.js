@@ -21,7 +21,7 @@ screenTest(mediaqueryList);
 
 mediaqueryList.addListener(screenTest);
 
-const {email} = form.elements;
+const { email } = form.elements;
 const errMsgEmail = document.querySelector('small');
 
 menubtn.addEventListener('click', () => {
@@ -39,7 +39,7 @@ portfoliolink.addEventListener('click', () => {
   menubtn.classList.remove('hidden');
 });
 
-aboutlink.addEventListener('click', () => { 
+aboutlink.addEventListener('click', () => {
   headertoolbar.classList.add('hidden');
   menubtn.classList.remove('hidden');
 });
