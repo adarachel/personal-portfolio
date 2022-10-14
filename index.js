@@ -33,7 +33,7 @@ contactlink.addEventListener('click', () => {
 const dataCards = [
   {
     id: 0,
-    url: './img/newnew.svg',
+    url: './img/doughnuts.jpeg',
     title: 'Keeping track of hundreds of components',
     description: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
   industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
@@ -50,7 +50,7 @@ const dataCards = [
   },
   {
     id: 1,
-    url: './img/newnew.svg',
+    url: './img/doughnuts.jpeg',
     title: 'Keeping track of hundreds of components',
     description: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
   industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
@@ -67,7 +67,7 @@ const dataCards = [
   },
   {
     id: 2,
-    url: './img/newnew.svg',
+    url: './img/doughnuts.jpeg',
     title: 'Keeping track of hundreds of components',
     description: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
   industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
@@ -84,7 +84,7 @@ const dataCards = [
   },
   {
     id: 3,
-    url: './img/newnew.svg',
+    url: './img/doughnuts.jpeg',
     title: 'Keeping track of hundreds of components',
     description: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
   industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
@@ -101,7 +101,7 @@ const dataCards = [
   },
   {
     id: 4,
-    url: './img/newnew.svg',
+    url: './img/doughnuts.jpeg',
     title: 'Keeping track of hundreds of components',
     description: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
   industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
@@ -118,7 +118,7 @@ const dataCards = [
   },
   {
     id: 5,
-    url: './img/newnew.svg',
+    url: './img/doughnuts.jpeg',
     title: 'Keeping track of hundreds of components',
     description: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
   industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
