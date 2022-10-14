@@ -799,10 +799,12 @@ ul {
   color: #36b37e;
   padding: 0;
   margin: 0;
-  font-size: large;
+  font-size: 12px;
   font-weight: bold;
   letter-spacing: 2px;
-  text-align: left;
+  text-align: center;
+  list-style: none;
+  max-width: 500px;
 }
 
 input,
