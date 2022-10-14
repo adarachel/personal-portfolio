@@ -20,7 +20,7 @@ portfoliolink.addEventListener('click', () => {
   menubtn.classList.remove('hidden');
 });
 
-aboutlink.addEventListener('click', () => {
+aboutlink.addEventListener('click', () => { 
   headertoolbar.classList.add('hidden');
   menubtn.classList.remove('hidden');
 });
