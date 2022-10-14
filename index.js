@@ -4,6 +4,25 @@ const closebtn = document.querySelector('.close-btn');
 const portfoliolink = document.querySelector('.portfolio-link');
 const aboutlink = document.querySelector('.about-link');
 const contactlink = document.querySelector('.contact-link');
+const form = document.querySelector('.form-post');
+const fullName = form.elements;
+
+const mediaqueryList = window.matchMedia('(max-width: 768px');
+
+const screenTest = (e) => {
+  if (e.matches) {
+    fullName.required = false;
+  } else {
+    fullName.required = true;
+  }
+};
+
+screenTest(mediaqueryList);
+
+mediaqueryList.addListener(screenTest);
+
+const {email} = form.elements;
+const errMsgEmail = document.querySelector('small');
 
 menubtn.addEventListener('click', () => {
   menubtn.classList.add('hidden');
@@ -28,6 +47,16 @@ aboutlink.addEventListener('click', () => {
 contactlink.addEventListener('click', () => {
   headertoolbar.classList.add('hidden');
   menubtn.classList.remove('hidden');
+});
+
+form.addEventListener('submit', (e) => {
+  e.preventDefault();
+  const regex = /[A-Z]/;
+  if (!regex.test(email.value)) {
+    form.submit();
+  } else {
+    errMsgEmail.innerText = 'PLEASE ENTER YOUR EMAIL ONLY IN LOWER CASE!';
+  }
 });
 
 const dataCards = [
