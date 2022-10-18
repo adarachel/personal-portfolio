@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=GA_TRACKING_ID"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){window.dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'GA_TRACKING_ID');
+</script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -63,9 +72,9 @@ don't hesitate to contact me.</p>
             <div class="indicator-image">
             <img src="./img/Indicator.svg" alt="Indicator">
             </div>
-
-            <div class="work-container">
-                <article>
+            
+            <div class="work-container" id="work-container-id">
+                <!-- <article>
                     <div class="works-card">
                         <div class="works-card-image">
                             <img src="./img/Img Plaholder.svg" alt="First Project">
@@ -156,8 +165,8 @@ don't hesitate to contact me.</p>
                                         </ul>
                                         <div><button type="button" class="project-btn">See Project</button></div>
                                     </div>
-                                    </article>
-            </div>
+                                    </article> -->
+            </div> 
             
         </div>
     </section>
@@ -244,10 +253,11 @@ don't hesitate to contact me.</p>
                                 
                                 <li>
                                 <button class="submit-btn" type="submit">Get In Touch</button>
-                                </li>
-                            </ul>
-                        </form>
-                    </div>
+                            <br><br><small></small>
+                        </li>
+                    </ul>
+                </form>
+            </div>
 
                     <div class="social">
                         <ul class="social-media">
