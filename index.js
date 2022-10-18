@@ -9,7 +9,7 @@ let menuOpen = false;
 menubtn.addEventListener('click', () => {
   !menuOpen && menubtn.classList.add('hidden');
   headertoolbar.classList.remove('hidden');
-  (menuOpen = true);
+  (menuOpen = true); 
 });
 
 closebtn.addEventListener('click', () => {
