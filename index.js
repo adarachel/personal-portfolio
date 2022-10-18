@@ -9,7 +9,7 @@ let menuOpen = false;
 menubtn.addEventListener('click', () => {
   !menuOpen && menubtn.classList.add('hidden');
   headertoolbar.classList.remove('hidden');
-  (menuOpen = true); 
+  (menuOpen = true);
 });
 
 closebtn.addEventListener('click', () => {
@@ -27,11 +27,11 @@ portfoliolink.addEventListener('click', () => {
 aboutlink.addEventListener('click', () => {
   headertoolbar.classList.add('hidden');
   menubtn.classList.remove('hidden');
-  console.log('click link'); 
+  console.log('click link');
 });
 
 contactlink.addEventListener('click', () => {
   headertoolbar.classList.add('hidden');
   menubtn.classList.remove('hidden');
-  console.log('click link'); 
+  console.log('click link');
 });
