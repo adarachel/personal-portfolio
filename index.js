@@ -21,7 +21,7 @@ closebtn.addEventListener('click', () => {
 portfoliolink.addEventListener('click', () => {
   headertoolbar.classList.add('hidden');
   menubtn.classList.remove('hidden');
-  console.log('click link'); 
+  console.log('click link');
 });
 
 aboutlink.addEventListener('click', () => {
