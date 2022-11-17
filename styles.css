@@ -296,9 +296,7 @@ ul {
 
 .works-card-image img {
   width: 327px;
-  height: 474px;
-  min-height: 250px;
-  object-fit: cover;
+  height: 250px;
 }
 
 .works-card-skills,
@@ -373,12 +371,14 @@ ul {
 }
 
 .works-card-image-details-mobile img {
-  width: 350px;
+  width: 550px;
   height: 250px;
   border-radius: 8px;
   box-sizing: border-box;
   overflow: hidden;
   object-fit: cover;
+  margin-left: 0.2em
+  margin-top: 2em;
 }
 
 .works-card-title-mobile {
@@ -512,10 +512,11 @@ ul {
   }
 
   .works-card-image-details-mobile img {
-    width: 1550px;
-    height: 400px;
+    width: 600px;
+    height: 250px;
     border: 1px solid #dfe1e6;
     border-radius: 8px;
+    margin-left: 30em;
   }
 
   .close-btn-details {

@@ -62,20 +62,19 @@ form.addEventListener('submit', (e) => {
 const dataCards = [
   {
     id: 0,
-    url: './img/doughnuts.jpeg',
-    title: 'Keeping track of hundreds of components',
-    description: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-  industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
-  and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and
-  typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-  when an unknown printer took a galley of type and scrambled it 1960s with the relea`,
+    url: './img/screenshot_3.png',
+    title: 'TO-DO List Web Application',
+    description: `A responsive web application built with HTML, CSS, Javascript, EcmaScript 6 and Webpack Module Bundler.
+    The web app functions to 'add' a new task to the to-do list, 'edit' a task already inputed into the list, 'remove/delete' a task from the list,
+    'linethrough/check' a completed task from the list and clear all completed tasks successfully. This fully functional to-do list is handy and useful for
+    logging day-to-day reminders and activities. It is repsonsive to both desktop and mobile views. Find the link to the source code and the link to the live version below.`,
     tecnologies: {
-      tech1: 'Rubi on rails',
-      tech2: 'css',
+      tech1: 'HTML',
+      tech2: 'CSS',
       tech3: 'JavaScript',
     },
-    linkVersion: 'https://www.google.com',
-    linkSource: 'https://adarachel.github.io/personal-portfolio/',
+    linkVersion: 'https://adarachel.github.io/to-do/dist/index.html',
+    linkSource: 'https://github.com/adarachel/to-do',
   },
   {
     id: 1,
@@ -198,9 +197,9 @@ const worksCardDetailsMobile = (index) => `
 const projectsCards = [
   {
     id: '0',
-    name: 'Multi-Post Stories Gain+Glory',
-    cardSkills: ['ruby on rails', 'css', 'Javascript', 'html'],
-    imageUrl: './img/doughnuts.jpeg',
+    name: 'TO-DO List Project',
+    cardSkills: ['webpack', 'css', 'Javascript', 'html'],
+    imageUrl: './img/screenshot_4.png',
   },
   {
     id: '1',
