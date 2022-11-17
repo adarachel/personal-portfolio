@@ -30,7 +30,7 @@ button:hover {
 }
 
 button:active {
-  background: #008552;
+  background: #9acd32;
 }
 
 .logo {
@@ -723,7 +723,7 @@ ul {
 .contact-form h3 {
   font-weight: 600;
   font-style: normal;
-  font-size: 40px;
+  font-size: 41px;
   text-align: center;
   color: #172b4d;
   margin-top: 0;
